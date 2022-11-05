@@ -8,7 +8,7 @@ int main(){
     printf("Enter your Blood RhD : "); 
     scanf(" %c", &RhD); // blood RhD
 
-    // specify condition
+    // specific condition
     int condition_A = (blood_group == 'A') || (blood_group == 'a'); //for capital and small A/a
     int condition_B = (blood_group == 'B') || (blood_group == 'b'); //for capital and small B/b
     int condition_O = (blood_group == 'O') || (blood_group == 'o'); //for capital and small O/o
